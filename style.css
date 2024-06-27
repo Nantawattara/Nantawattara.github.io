@@ -1,0 +1,12 @@
+.test {
+    width: 100%;
+    animation: ww;
+    position: relative;
+    animation-duration: 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ww {
+    0% {text-align: start;}
+    100%{text-align: end;}
+}
